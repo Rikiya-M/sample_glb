@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+	background:  #E0E5EC;
+}
+
+.hobby-area{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+    padding: 4rem 2rem;
+}
+
+
+.hobby-contents{
+    width: 100%;
+	border: 0.25rem solid #617A9E;
+}

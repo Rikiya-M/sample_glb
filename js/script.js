@@ -50,7 +50,7 @@ function init() {
    let model = null;
    loader.load(
       //3Dモデルファイルのパスを指定
-       '../glb/MB_W222_Sclass.glb',
+       'https://github.com/Rikiya-M/sample_glb/tree/f31ebaa1a33541a3824d5ed67b10d92955e8701c/glb/MB_W222_Sclass.glb',
        function (glb) {
            model = glb.scene;
            model.name = "model_castle";
